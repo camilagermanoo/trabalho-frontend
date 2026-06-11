@@ -1,20 +1,28 @@
 {
-    "filmes": [
-      {
-        "id": 1,
-        "titulo": "Interestelar",
-        "diretor": "Christopher Nolan",
-        "genero": "Ficção Científica",
-        "avaliacao": 9.5,
-        "email": "contato@nolan.com"
-      },
-      {
-        "id": 2,
-        "titulo": "Parasita",
-        "diretor": "Bong Joon-ho",
-        "genero": "Drama",
-        "avaliacao": 9.0,
-        "email": "contato@bong.com"
-      }
-    ]
-  }
+  "filmes": [
+    {
+      "id": "1",
+      "titulo": "Interestelar",
+      "diretor": "Christopher Nolan",
+      "genero": "Ficção Científica",
+      "avaliacao": 9.5,
+      "email": "contato@nolan.com"
+    },
+    {
+      "id": "2",
+      "titulo": "Parasita",
+      "diretor": "Bong Joon-ho",
+      "genero": "Drama",
+      "avaliacao": 9,
+      "email": "contato@bong.com"
+    }
+  ],
+  "usuarios": [
+    {
+      "nome": "Camila",
+      "email": "c.germano@iesb.edu.br",
+      "id": "NVWGoKOehhs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
