@@ -1,22 +1,13 @@
 import { createContext, useState, useContext } from 'react'
 import axios from 'axios'
-
+/* eslint-disable react-refresh/only-export-components */
 const API_FILMES = 'http://localhost:3001/filmes'
 const API_USUARIOS = 'http://localhost:3001/usuarios'
 
 export const UserContext = createContext()
 
 export function UserProvider({ children }) {
-  const [filmes, setFilmes] = useState([
-    {
-      id: 99,
-      titulo: 'Filme Teste',
-      diretor: 'Diretor Teste',
-      genero: 'Ação',
-      avaliacao: 8.0,
-      email: 'teste@email.com'
-    }
-  ])
+  const [filmes, setFilmes] = useState([])
 
   const [usuarios, setUsuarios] = useState([])
   const [loading, setLoading] = useState(false)
