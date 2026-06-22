@@ -32,7 +32,7 @@ Desenvolver uma aplicação frontend em **React** simulando um cenário real de 
 
 ---
 
-## 👥 Membros da Equipa
+## 👥 Membros da Equipe
 
 | Nome | GitHub |
 | :--- | :--- |
